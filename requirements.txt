@@ -1,0 +1,14 @@
+# Minimal dependencies for the Building-PIML-Tradeoff reproduction package.
+#
+# These are the only third-party packages imported by the retained workflow.
+# Their versions were captured from the retained project environment during the
+# 2026-08-09 reproduction-package cleanup and are provided as the reference
+# environment for using the retained workflow.
+#
+# Interpreter: CPython 3.10.12
+
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+torch==2.11.0
+matplotlib==3.10.9

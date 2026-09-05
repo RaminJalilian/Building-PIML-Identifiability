@@ -1,0 +1,25 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+# Authoritative synthetic benchmark dataset IS tracked (see INTEGRITY.md); ignore anything else in data/
+data/*
+!data/synthetic_dataset.csv
+!data/sensing_S1.csv
+!data/sensing_S2.csv
+!data/sensing_S3.csv
+figures/*
+!figures/v4/
+!figures/v4/**
+# Editable source of the hand-drawn Figure 1 schematic (never code-generated)
+!figures/Figure1.drawio
+# Raw results JSON IS tracked (authoritative raw predictions/losses); ignore any other json
+results/*.json
+!results/results_all.json
+results/Old/
+*.pt
+*.pkl
+*.h5
+texput.log
+Manuscript/
+_archive/
